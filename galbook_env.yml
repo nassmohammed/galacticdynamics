@@ -1,0 +1,20 @@
+name: galaxiesbook
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ipython
+  - jupyter
+  - numpy
+  - scipy
+  - matplotlib
+  - pyqt
+  - pandas
+  - pip
+  - numexpr
+  - gsl
+  - astropy
+  - galpy
+  - specutils
+  - pip:
+    - astroquery

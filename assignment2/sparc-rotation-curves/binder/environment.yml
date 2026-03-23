@@ -1,0 +1,17 @@
+name: galdyncourse
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipython
+  - jupyter
+  - numpy
+  - scipy
+  - matplotlib
+  - pyqt
+  - pandas
+  - pip
+  - conda-forge::astropy>=2
+  - galpy
+  - pip:
+    - astroquery
